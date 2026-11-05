@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SC8815'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Southchip", "SC8815" (!) = "", "QFN40P400X400X80-33N-D", "Quad Flat No-Lead", "", "", "", "", "SC8815 High Efficiency, Synchronous, Bi-Directional Buck-Boost Charger Controller with I2C Interface", "https://datasheet.lcsc.com/lcsc/2006221513_Southchip-Semicon-SC8815QDER_C429908.pdf", "0.8 mm"
+END_PART
+
+END.

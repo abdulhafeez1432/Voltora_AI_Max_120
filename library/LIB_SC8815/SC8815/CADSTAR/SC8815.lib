@@ -1,0 +1,18 @@
+.SC8815 :1 ;SC8815 High Efficiency, Synchronous, Bi-Directional Buck-Boost Charger Controller with I2C Interface
+QFN40P400X400X80-33N-D
+*STM IC
+*NGS
+*PLB 1="SNS1P" 2="GPO" 3="CP" 4="PGATE/DITHER" 5="INDET" 6="ACIN" 7="'CE'" 8="PSTOP" 9="SCL" 10="SDA" 11="INT" 12="AGND" 13="ADIN" 14="FB" 15="COMP" 16="VBATS" 17="SNS2N" 18="SNS2P" 19="VBAT" 20="BT2" 21="HD2" 22="SW2" 23="LD2" 24="VCC" 25="VDRV" 26="PGND_1" 27="LD1" 28="SW1" 29="HD1" 30="BT1" 31="VBUS" 32="SNS1N" 33="PGND_2"
+*MXP 33
+*DFN SC8815
+~!Manufacturer_Name (Southchip)
+~!Manufacturer_Part_Number (SC8815)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/lcsc/2006221513_Southchip-Semicon-SC8815QDER_C429908.pdf)
+~!Height (0.8mm)
+~!3D_Model (SC8815)
+SC8815
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

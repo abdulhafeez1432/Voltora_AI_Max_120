@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC8815
+D SC8815 High Efficiency, Synchronous, Bi-Directional Buck-Boost Charger Controller with I2C Interface
+K
+F https://datasheet.lcsc.com/lcsc/2006221513_Southchip-Semicon-SC8815QDER_C429908.pdf
+$ENDCMP
+#
+#End Doc Library
