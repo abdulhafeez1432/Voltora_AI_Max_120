@@ -1,0 +1,133 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ESDA25L" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "ESDA25L" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "ESDA25L:SOT-23-3L" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ESDA25L_STMicroelectronics.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ESDA25L_STMicroelectronics.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "STMicroelectronics" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "ESDA25L" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOT-23-3 STMicroelectronics" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/ESDA25L/STMicroelectronics/view-part/" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ESDA25L_0_0"
+      (polyline
+        (pts (xy -5.08 2.286) (xy -7.62 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -0.254) (xy -5.08 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -0.254) (xy -2.54 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -0.254) (xy -5.08 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.286) (xy 2.54 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -0.254) (xy 5.08 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -0.254) (xy 7.62 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 -0.254) (xy 5.08 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -0.254) (xy -5.08 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -2.794) (xy 0.0 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.794) (xy 5.08 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.794) (xy 5.08 -0.254)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 2.286) (xy -5.08 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.286) (xy -2.54 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.286) (xy -2.032 2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 2.286) (xy -8.128 1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.286) (xy 5.08 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.286) (xy 7.62 2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 2.286) (xy 8.128 2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.286) (xy 2.032 1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.286) (xy -5.08 3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.286) (xy 5.08 3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.794) (xy 0.0 -3.81)) (stroke (width 0.254))
+      )
+      (rectangle (start -10.16 -7.62) (end 10.16 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at 0.0 -12.7 90.0) (length 5.08)
+        (name "3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -5.08 12.7 270.0) (length 5.08)
+        (name "2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 5.08 12.7 270.0) (length 5.08)
+        (name "1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

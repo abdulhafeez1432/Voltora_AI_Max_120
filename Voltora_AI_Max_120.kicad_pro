@@ -260,7 +260,56 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1028700|1587500|5ff6e19e-7ce8-4bbf-becb-d8eb907e11f7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1155700|1638300|5cedc413-3b34-4fb1-962f-dac04844a162|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1257300|736600|1c7231f3-e7d6-49f4-802a-fe5ebd464827|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1562100|1574800|2fbb838f-0f2b-4b1a-93a2-d203510d0e7c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2095500|609600|ad5f17a5-56f0-458d-8b4f-f4ae8306b6ea|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2120900|825500|2ed81b5e-ed59-4359-a589-ce691e00025c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|406400|1244600|80aca6bb-bb55-4372-9c83-bfb3aa2f2cba|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|444500|1689100|25bbf2f2-3836-4903-bea6-3887d7c49c87|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|495300|1625600|22bc02a7-7704-4ab9-a7d1-549ed332c76d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|876300|698500|6b5701a9-c64e-4aa5-99fb-61cb7a68392f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|927100|1257300|772dfd8b-bd35-4397-bf2c-cc40f99b30a2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|965200|1701800|c062276d-0c1d-46ba-b2a5-a342a12da081|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -657,17 +706,41 @@
     "top_level_sheets": [
       {
         "filename": "Voltora_AI_Max_120.kicad_sch",
-        "name": "Root",
+        "name": "Overview",
         "uuid": "6c57d775-9361-44c3-98f8-d32162ef0f0e"
       }
     ],
-    "used_designators": "R1-19,IC1,C1-24,Q1-4,L1,TH1,U2-3",
+    "used_designators": "J1-8,#FLG1-9,R1-89,IC1,C1-82,Q1-14,L1-4,TH1-4,U1-15,D1-8,TP1-20,NT1,100nF\\,25Vor50V\\,X7R1,100nF\\,25V\\,X7R1,X1,SW1-6,F1-2,100nF1",
     "variants": []
   },
   "sheets": [
     [
       "6c57d775-9361-44c3-98f8-d32162ef0f0e",
-      "Root"
+      "Overview"
+    ],
+    [
+      "67eabcee-9be7-47d0-98a0-84e2410dee84",
+      "04_USB_Ports"
+    ],
+    [
+      "39233b24-eb27-43f7-9d5b-138d14bfe3d5",
+      "05_MCU_UI_Wireless"
+    ],
+    [
+      "e811f3a1-27f3-4f18-8f5b-99e7ef8b8d9e",
+      "01_SC8815_Power_Stage"
+    ],
+    [
+      "e9a11712-5654-4570-a3f1-a64a7886b4b3",
+      "02_SC2001_PD_Control"
+    ],
+    [
+      "03d2ce2d-1b4a-46a5-8a09-792c4e50e1da",
+      "03_TPS55288_USBA_Power"
+    ],
+    [
+      "5c3f92c6-527c-4fb8-aad3-341c730cd1c5",
+      "06_Battery_BMS_Protection"
     ]
   ],
   "text_variables": {},

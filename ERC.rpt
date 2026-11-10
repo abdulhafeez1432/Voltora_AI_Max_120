@@ -1,0 +1,88 @@
+ERC report (2026-11-09T18:37:19, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'Q_NMOS_GDS' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4050 mils, 6250 mils): Symbol Q9 [Q_NMOS_GDS]
+[lib_symbol_mismatch]: Symbol 'Q_NMOS_GDS' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(6150 mils, 6200 mils): Symbol Q8 [Q_NMOS_GDS]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2150 mils, 6450 mils): Global Label 'EN'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6450 mils): Global Label 'IO0'
+
+***** Sheet /04_USB_Ports/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6800 mils, 4900 mils): Symbol U3 Pin 3 [3, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+
+***** Sheet /05_MCU_UI_Wireless/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2350 mils): Symbol X1 Pin 2 [3V3, Bidirectional, Line]
+    @(15250 mils, 8950 mils): Symbol #FLG07 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Pin 1 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 48 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 41 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 40 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 42 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 49 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 43 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 46 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 47 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 44 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3550 mils, 2450 mils): Symbol X1 Hidden pin 45 [GND, Bidirectional, Line]
+    @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+
+***** Sheet /01_SC8815_Power_Stage/
+
+***** Sheet /02_SC2001_PD_Control/
+
+***** Sheet /03_TPS55288_USBA_Power/
+
+***** Sheet /06_Battery_BMS_Protection/
+
+ ** ERC messages: 17  Errors 0  Warnings 17
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
