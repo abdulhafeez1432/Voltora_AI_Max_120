@@ -1685,6 +1685,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3916,16 +4039,16 @@
 		(uuid "25d50704-d1c8-44b5-9758-d8632c533c24")
 	)
 	(junction
-		(at 254 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aaf8b71-a276-4de8-ac43-6e00ff718360")
-	)
-	(junction
 		(at 41.91 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b945923-8a45-40fb-b168-7a4237382237")
+	)
+	(junction
+		(at 127 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30805048-bdb3-444e-b1d0-21912cd34a43")
 	)
 	(junction
 		(at 66.04 106.68)
@@ -4153,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 104.14) (xy 256.54 104.14)
+			(xy 248.92 104.14) (xy 256.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4210,6 +4333,16 @@
 			(type default)
 		)
 		(uuid "03074f37-8a5d-4b83-9710-fc554612274a")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f5918e-bca3-4fb7-b904-77f7b09794de")
 	)
 	(wire
 		(pts
@@ -4340,6 +4473,16 @@
 			(type default)
 		)
 		(uuid "13d0f162-841c-44bf-8e07-84e696bbdaab")
+	)
+	(wire
+		(pts
+			(xy 57.15 161.29) (xy 57.15 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e8479c-95d8-49c6-8c0d-45f49babde21")
 	)
 	(wire
 		(pts
@@ -4543,6 +4686,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 143.51) (xy 241.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da2c238-86ea-463e-82ac-e37b941363f2")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 50.8 36.83)
 		)
 		(stroke
@@ -4710,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "424f8bca-5f6e-4256-8940-ab90383631ee")
+	)
+	(wire
+		(pts
+			(xy 74.93 161.29) (xy 74.93 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4286cdfe-5948-48f2-b0ec-332946e489b0")
 	)
 	(wire
 		(pts
@@ -5203,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 161.29) (xy 41.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759105f8-da2b-4750-b7d9-04a52586c92c")
+	)
+	(wire
+		(pts
 			(xy 220.98 60.96) (xy 219.71 60.96)
 		)
 		(stroke
@@ -5333,16 +5506,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 254 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826beb42-df71-4623-8c8e-0ec2f7fce88f")
-	)
-	(wire
-		(pts
 			(xy 44.45 76.2) (xy 69.85 76.2)
 		)
 		(stroke
@@ -5403,6 +5566,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 121.92) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8acf49-d9d8-459b-be47-73baeece9455")
+	)
+	(wire
+		(pts
 			(xy 240.03 57.15) (xy 240.03 66.04)
 		)
 		(stroke
@@ -5430,6 +5603,16 @@
 			(type default)
 		)
 		(uuid "8ee5bbc9-597e-4825-b217-8bc8d3d2d9a4")
+	)
+	(wire
+		(pts
+			(xy 241.3 140.97) (xy 247.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90899bfc-4fa6-492b-be42-ee9643194f41")
 	)
 	(wire
 		(pts
@@ -5570,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "a3f2fd4d-5a52-4b09-a512-81c93cf619df")
+	)
+	(wire
+		(pts
+			(xy 26.67 161.29) (xy 26.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a440f780-8d03-4b3f-86db-08038a30058f")
 	)
 	(wire
 		(pts
@@ -5883,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 121.92) (xy 121.92 121.92)
+			(xy 110.49 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6497,7 +6690,7 @@
 			)
 		)
 	)
-	(global_label "BAT_NEG_RAW"
+	(global_label "CELL0_TAP"
 		(shape input)
 		(at 248.92 104.14 180)
 		(fields_autoplaced yes)
@@ -6509,7 +6702,7 @@
 		)
 		(uuid "2ec7c277-08a5-47cd-8b59-b44e080cb703")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.1139 104.14 0)
+			(at 235.9563 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,7 +6930,7 @@
 			)
 		)
 	)
-	(global_label "BAT_NEG_RAW"
+	(global_label "CELL0_TAP"
 		(shape input)
 		(at 39.37 86.36 180)
 		(fields_autoplaced yes)
@@ -6749,7 +6942,7 @@
 		)
 		(uuid "59878a45-2daa-4bfe-a17b-5bc5ce34a280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5639 86.36 0)
+			(at 26.4063 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,6 +7015,30 @@
 		(uuid "6893104e-c80a-4f86-a7f2-187a67323bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.0735 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAT_POS_RAW"
+		(shape input)
+		(at 74.93 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6edf4443-d01c-4cd4-9ec6-a310ddedc2ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 179.6966 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7148,7 @@
 	)
 	(global_label "BAT_NEG_RAW"
 		(shape input)
-		(at 121.92 121.92 0)
+		(at 133.35 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6941,7 +7158,7 @@
 		)
 		(uuid "8e5b5cb3-cd92-45cd-8cd9-7d1731f93f71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.7261 121.92 0)
+			(at 149.1561 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,6 +7167,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BAT_POS_RAW"
+		(shape input)
+		(at 241.3 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f550e42-01d9-4c94-8d84-e4d4f497c652")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.4334 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7121,6 +7362,30 @@
 			)
 		)
 	)
+	(global_label "BMS_SCL"
+		(shape input)
+		(at 26.67 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a41f5750-8d92-400a-92f8-5980c93bd6f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 175.2213 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BMS_SDA"
 		(shape input)
 		(at 120.65 105.41 0)
@@ -7145,7 +7410,7 @@
 			)
 		)
 	)
-	(global_label "BAT_POS_RAW"
+	(global_label "CELL4_TAP"
 		(shape input)
 		(at 44.45 118.11 180)
 		(fields_autoplaced yes)
@@ -7157,7 +7422,7 @@
 		)
 		(uuid "a78bf4e3-d7af-477a-bc3b-3252f2443740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5834 118.11 0)
+			(at 31.4863 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7482,7 @@
 			)
 		)
 	)
-	(global_label "BAT_POS_RAW"
+	(global_label "CELL4_TAP"
 		(shape input)
 		(at 250.19 114.3 180)
 		(fields_autoplaced yes)
@@ -7229,7 +7494,7 @@
 		)
 		(uuid "c078b0c0-c836-430b-8e55-6ed0cf2fb9a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.3234 114.3 0)
+			(at 237.2263 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7262,6 +7527,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BAT_NEG_RAW"
+		(shape input)
+		(at 57.15 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c994a1ee-9267-47c8-bf53-06fda6e77030")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 179.6361 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7337,6 +7626,30 @@
 			)
 		)
 	)
+	(global_label "BMS_SDA"
+		(shape input)
+		(at 41.91 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e59dd8bd-1e06-4a0d-b01f-cf56f58e36e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 175.2818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CELL2_TAP"
 		(shape input)
 		(at 248.92 109.22 180)
@@ -7350,6 +7663,30 @@
 		(uuid "e8a0b3f0-b30d-491b-bc1f-850484009418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 235.9563 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAT_NEG_RAW"
+		(shape input)
+		(at 241.3 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9efcbfd-4715-4a91-a134-9805fd23e81c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.4939 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,6 +8966,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 41.91 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e13b3be-b280-4353-9920-5bff82748a38")
+		(property "Reference" "TP22"
+			(at 44.45 156.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 44.45 159.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 46.99 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 41.91 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac6a6d0-4da5-47ec-94da-4897feb41187")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 59.69 81.28 0)
 		(unit 1)
@@ -8786,6 +9202,88 @@
 			(project "Voltora_AI_Max_120"
 				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 252.73 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "453b5ddc-12f3-4ef4-81a8-e19a88654afd")
+		(property "Reference" "J9"
+			(at 255.27 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATTERY_IN_XT30"
+			(at 255.27 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 252.73 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6191085-9ae4-428f-913a-75d72f3351b8")
+		)
+		(pin "2"
+			(uuid "db574ed3-5e83-4c5e-9999-6fc33900ad8e")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10132,6 +10630,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7998908e-64f0-43d4-964b-c9a166abfb94")
+		(property "Reference" "TP24"
+			(at 77.47 156.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.47 159.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 80.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c91c6e47-21a9-445f-8d3f-755ed7106a31")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 114.3 143.51 0)
 		(mirror x)
@@ -10206,6 +10783,84 @@
 			(project "Voltora_AI_Max_120"
 				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
 					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 127 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab916c0-e423-42b2-84be-153251c3ee32")
+		(property "Reference" "#FLG08"
+			(at 127 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 127 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3939cec-5478-40b8-b4ab-4e4916bd3745")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -10607,8 +11262,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 254 104.14 0)
+		(lib_id "Connector:TestPoint")
+		(at 26.67 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10617,30 +11272,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a95240d3-d2de-41a2-815b-8aaf66f39d7e")
-		(property "Reference" "#FLG09"
-			(at 254 102.235 0)
-			(hide yes)
+		(uuid "ac36e4de-df5e-4a2d-8b04-24162cd878cd")
+		(property "Reference" "TP21"
+			(at 29.21 156.7179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 254 99.06 0)
+		(property "Value" "TestPoint"
+			(at 29.21 159.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 104.14 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,7 +11307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 104.14 0)
+			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10661,8 +11317,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 254 104.14 0)
+		(property "Description" "test point"
+			(at 26.67 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,12 +11329,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "06c2b061-c30a-461c-80a3-0572af526a6b")
+			(uuid "5bd07651-dfeb-4211-8792-36febd9f25e9")
 		)
 		(instances
 			(project "Voltora_AI_Max_120"
 				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
-					(reference "#FLG09")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -11045,6 +11701,85 @@
 			(project "Voltora_AI_Max_120"
 				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c281e207-3772-436d-afcc-13784301ad6b")
+		(property "Reference" "TP23"
+			(at 59.69 156.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 59.69 159.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 62.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df68b00c-e643-469b-92cc-b16328d50b9e")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/5c3f92c6-527c-4fb8-aad3-341c730cd1c5"
+					(reference "TP23")
 					(unit 1)
 				)
 			)

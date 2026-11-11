@@ -1,31 +1,28 @@
-ERC report (2026-11-09T18:37:19, Encoding UTF8)
+ERC report (2026-11-11T08:57:47, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
 [lib_symbol_mismatch]: Symbol 'Q_NMOS_GDS' doesn't match copy in library 'Transistor_FET'
     ; warning
-    @(4050 mils, 6250 mils): Symbol Q9 [Q_NMOS_GDS]
-[lib_symbol_mismatch]: Symbol 'Q_NMOS_GDS' doesn't match copy in library 'Transistor_FET'
-    ; warning
-    @(6150 mils, 6200 mils): Symbol Q8 [Q_NMOS_GDS]
+    @(4250 mils, 6500 mils): Symbol Q9 [Q_NMOS_GDS]
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(2150 mils, 6450 mils): Global Label 'EN'
+    @(8950 mils, 2850 mils): Global Label 'DC_IN_FUSED '
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(2850 mils, 6450 mils): Global Label 'IO0'
+    @(10000 mils, 5750 mils): Global Label 'TPS_VOUT_RAW'
 
 ***** Sheet /04_USB_Ports/
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
-    @(6800 mils, 4900 mils): Symbol U3 Pin 3 [3, Bidirectional, Line]
+    @(6800 mils, 4900 mils): Symbol U4 Pin 3 [3, Bidirectional, Line]
     @(4550 mils, 3000 mils): Symbol #FLG01 Pin 1 [Power output, Line]
 
 ***** Sheet /05_MCU_UI_Wireless/
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
     @(3550 mils, 2350 mils): Symbol X1 Pin 2 [3V3, Bidirectional, Line]
-    @(15250 mils, 8950 mils): Symbol #FLG07 Pin 1 [Power output, Line]
+    @(15250 mils, 8950 mils): Symbol #FLG03 Pin 1 [Power output, Line]
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
     @(3550 mils, 2450 mils): Symbol X1 Pin 1 [GND, Bidirectional, Line]
@@ -79,7 +76,7 @@ Report includes: Errors, Warnings
 
 ***** Sheet /06_Battery_BMS_Protection/
 
- ** ERC messages: 17  Errors 0  Warnings 17
+ ** ERC messages: 16  Errors 0  Warnings 16
 
  ** Ignored checks:
     - Global label only appears once in the schematic

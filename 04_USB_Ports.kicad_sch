@@ -4573,6 +4573,12 @@
 		(uuid "ae648bd9-6d78-454b-95a1-5ffa05f37b5f")
 	)
 	(junction
+		(at 54.61 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88e5806-59a0-4ab0-8605-f7724c142cd0")
+	)
+	(junction
 		(at 369.57 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4927,6 +4933,16 @@
 			(type default)
 		)
 		(uuid "37ae6152-e4dd-4c0e-bda0-a28a21579a1f")
+	)
+	(wire
+		(pts
+			(xy 54.61 213.36) (xy 52.07 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7fbf3c-fb0b-4fd5-bfce-e7748dc96620")
 	)
 	(wire
 		(pts
@@ -5580,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 213.36) (xy 52.07 213.36)
+			(xy 57.15 213.36) (xy 54.61 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5707,6 +5723,16 @@
 			(type default)
 		)
 		(uuid "c5043c62-bb43-409a-b61d-239004b2fbd7")
+	)
+	(wire
+		(pts
+			(xy 54.61 209.55) (xy 54.61 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d1c027-3de1-4c19-9a74-b956ff9a4f57")
 	)
 	(wire
 		(pts
@@ -9091,7 +9117,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 248.92 113.03 180)
+		(at 248.92 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9102,25 +9128,23 @@
 		(fields_autoplaced yes)
 		(uuid "375e5784-b34e-4c1f-9eb7-74b279801833")
 		(property "Reference" "D3"
-			(at 247.6499 110.49 90)
+			(at 248.92 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "ESDA25P35-1U1M"
-			(at 250.1899 110.49 90)
+			(at 248.92 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:ST_QFN-2L_1.6x1.0mm"
@@ -11088,7 +11112,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 50.8 179.07 180)
+		(at 50.8 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11098,7 +11122,7 @@
 		(dnp no)
 		(uuid "d4d8918d-3d64-44bc-9ad1-4078408d4353")
 		(property "Reference" "D2"
-			(at 44.196 176.276 0)
+			(at 57.404 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11109,7 +11133,7 @@
 			)
 		)
 		(property "Value" "ESDA7P120-1U1M"
-			(at 48.006 176.276 0)
+			(at 53.594 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11244,6 +11268,84 @@
 			(project "Voltora_AI_Max_120"
 				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/67eabcee-9be7-47d0-98a0-84e2410dee84"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d911e27a-d3aa-4b71-b321-b6ea90b91cc0")
+		(property "Reference" "#FLG09"
+			(at 54.61 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f45894a-be03-4439-bee3-d882ba3e61ba")
+		)
+		(instances
+			(project "Voltora_AI_Max_120"
+				(path "/6c57d775-9361-44c3-98f8-d32162ef0f0e/67eabcee-9be7-47d0-98a0-84e2410dee84"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -11599,7 +11701,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 48.26 87.63 180)
+		(at 48.26 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11609,7 +11711,7 @@
 		(dnp no)
 		(uuid "f0614d31-be8f-4f4a-9cb2-d5038c6bf7e2")
 		(property "Reference" "D1"
-			(at 42.672 84.836 0)
+			(at 53.848 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11620,7 +11722,7 @@
 			)
 		)
 		(property "Value" "ESDA7P120-1U1M"
-			(at 45.466 84.836 0)
+			(at 51.054 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
